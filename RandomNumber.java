@@ -7,6 +7,10 @@ public class RandomNumber {
 	int answer,high,low,newHigh,newLow;
 	Random random = new Random();
 	
+	public RandomNumber(int newHigh)
+	{
+		high=newHigh;
+	}
 	public RandomNumber(int newHigh,int newLow)
 	{
 		high=newHigh;
